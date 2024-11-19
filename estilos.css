@@ -1,35 +1,129 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 
 
-.Navbar{
-    color: #ffffff;
+.Navbar {
+    color: #000000;
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding-right: 20px;
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.952);
+    background-color: rgba(160, 160, 160, 0.384);
+    background-attachment: fixed;
 }
 
-.subNav{
-    display: flex;  
+.subNav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 .subNav li {
-    padding-top: 10px;
-    padding-left: 20px;
-    list-style:none;
+    margin-left: 20px;
+    list-style: none;
+
 
 }
+
 .subNav li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 
 }
 
-.logo{
-    height: 40px;
+.logo {
+    height: 60px;
+}
+
+.Portada {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-size: 100vw;
+    height: 80vh;
+
+
+}
+
+.sub-Portada {
+    align-items: center;
+    padding-right: 250px;
+}
+
+.sub-Portada h2 {
+    font-size: 60px;
+    width: 300px;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+
+}
+
+.sub-Portada p {
+    font-size: 20px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border-radius: 10em;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+    box-shadow: 0 0 0 0 black;
+    text-decoration: none;
+}
+
+button:hover {
+    transform: translateY(-4px) translateX(-2px);
+    box-shadow: 2px 5px 0 0 black;
+}
+
+
+
+button:active {
+    transform: translateY(2px) translateX(1px);
+    box-shadow: 0 0 0 0 black;
+}
+
+
+
+.imgInicio {
+    border-radius: 20px;
+}
+
+.parrafo {
+    border-top: solid 2px #000000;
+    padding-top: 20px;
+    font-size: 24px;
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+.parrafo p {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
